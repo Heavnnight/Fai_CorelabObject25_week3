@@ -24,8 +24,8 @@ public class WinZone : MonoBehaviour
         if (other.CompareTag("Player") && winText != null)
         {
             winText.enabled = true;
-            winText.text = "You Won!";
-            Debug.Log("You Won!");
+            winText.text = "You Won Yappie!";
+            Debug.Log("You Won Yappie!");
         }
     }
 }
